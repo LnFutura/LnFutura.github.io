@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html, Css</title>
+<!--    <style type = "text/css">-->
+<!--        p {color: red; font-weight: bold}//Встраивание внутренней таблицы  стилей-->
+<!--    </style>-->
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<div id = "header">
+    <!--<p style = "color:red; font-weight: bold;">Текст</p>//Встраивание css в текст-->
+    <h2>Примение CSS</h2>
+</div>
+<div id = "content">
+    <p class="p">CSS – это формальный язык, служащий для описания оформления внешнего вида документа, созданного с использованием языка разметки (HTML, XHTML, XML).
+        Название происходит от английского Cascading Style Sheets, что означает «каскадные таблицы стилей».
+        Назначение CSS – отделять то, что задает внешний вид страницы, от ее содержания.
+        Если документ создан только с использованием HTML, то в нем определяется не только каждый элемент, но и способ его отображения (цвет, шрифт, положение блока и т. д.). Если же подключены каскадные таблицы стилей, то HTML описывает только очередность объектов.
+        А за все их свойства отвечает CSS.
+        В HTML достаточно прописывать класс, не перечисляя все стили каждый раз.
+    </p>
+    <ul class = "ul">
+        <li class = "list">Идентификатор задает уникальное имя элемента.</li>
+        <li class = "list">Идентификаторы уникальны для одной страницы.</li>
+        <li class = " list t">Каждый элемент может иметь только один id, также как и id уникален для страницы.</li>
+        <li class = "list">Классы применяют, когда нужно задать стиль одного элемента или задать разные стили для одного тега.</li>
+        <li class = "list"> Можно использовать одинаковые классы для разных элементов или же использовать разные классы для одинаковых элементов, тоесть миксовать.</li>
+    </ul>
+   <a class = "link" href="https://palpalych.ru/blog/raznica-mezhdu-id-i-class-v-html">Дополнительно ознакомиться с информацией можно тут</a>
+   <img class = "myimage" src="https://cs1.htmlacademy.ru/blog/html/class/preview.png">
+</div>
+<div id = "footer">
+    <table border="1"  width="100%"  cellpadding="0">
+        <tr>
+            <th colspan="2">Таблица</th>
+        </tr>
+        <tr>
+            <th width="50%">Видео</th>
+            <th width="50%">Карта</th>
+        </tr>
+        <tr>
+            <td><iframe width="100%" height="400" src="https://www.youtube.com/embed/hft4XYApT44?si=fcYU9Bn_fkkRDBLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            <td><div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.313201%2C59.929427&mode=routes&rtext=59.943468%2C30.278713~59.935481%2C30.327107&rtt=auto&ruri=~ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805884&utm_medium=mapframe&utm_source=maps&z=13.19" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.313201%2C59.929427&mode=routes&rtext=59.943468%2C30.278713~59.935481%2C30.327107&rtt=auto&ruri=~ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805884&z=13.19" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

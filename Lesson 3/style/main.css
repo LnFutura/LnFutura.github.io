@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 100px;
+    align-items: center;
+    font-size: 20px;
+    background-color: #343840;
+    color: #ece1e1;
+}
+
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_bar li {
+    margin-right: 70px;
+}
+
+.Name {
+    margin-left: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+    width: 100%; /* Ширина контейнера */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 0 0 auto;
+}
+.sidebar H1{
+    font-size: 35pt;
+}
+.sidebar ul {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.sidebar li {
+    border: 1px solid lightgray;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1440px;
+    justify-content: space-around;
+    margin:20px auto;
+    flex: 0 1 auto;
+
+}
+.bigcontainer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+
+}
+.additional-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    height: 300px;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+
+}
+.image{
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+
+}
+.additional-container h2,
+.additional-container p {
+    margin: 5px  ; /* Добавляем отступы сверху и снизу */
+
+}
+.nav_bar a{
+    color: #ece1e1;
+    text-decoration: none;
+    font-size: 20pt;
+}
+a:hover{
+    color: #ff5900;
+}
+a:visited{
+    color: #6f738a;
+}

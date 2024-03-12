@@ -1,0 +1,87 @@
+body {
+    background-color: aliceblue;
+}
+.container *{
+    display: flex;
+    font-family: Futura;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ffffff ;
+    border-radius: 15px;
+
+}
+.imgcontainer{
+    object-fit: fill;
+    align-items: center;
+}
+.logo{
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.topsection{
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+.topsection H1{
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 25pt;
+}
+.topsection p{
+    font-size: 15pt;
+    margin-top: 5px;
+}
+.describe{
+    flex-direction: column;
+    width: 300px;
+}
+.topsection{
+    justify-content: center;
+}
+.middlesection{
+    background-color: #f1eeee;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    line-height: 50%;
+
+}
+.text{
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.topsection h1{
+    margin-bottom: 0px; /* Убираем отступы для заголовка и абзаца внутри .topsection */
+}
+.footerbutton{
+    width: 140px;
+    border: 1px none #cb1616; /* Уменьшаем толщину границы */
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link href="script.js">
+</head>
+<body>
+<div id="main">
+<form action="form.php" method="get" onsubmit="checkLogin(); return false">
+    <label for="">Введите логин</label>
+    <input type="text" name="login" id="login">
+    <label for="">Введите пароль</label>
+    <input type="password" name="password" id="password">
+    <input type="submit" value="Отправить">
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

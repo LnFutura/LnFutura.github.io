@@ -139,4 +139,3 @@
 //         alert('Декабрь');
 //         break;
 // }
-numberSwap()

@@ -1,3 +1,6 @@
+// todo: Сохраните результат шахматной партии в виде двухмерного массива board, называть фигуры можно
+// произвольно, например “black queen”.
+
 function createChessBoard(){
     let board = []
     let letters = ['A', 'B', 'C', 'D ', 'E ', 'F ', 'G ', 'H ']

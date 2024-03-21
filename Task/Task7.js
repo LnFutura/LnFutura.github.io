@@ -1,3 +1,6 @@
+//todo: Из предыдущего задания (task6) сгенерируйте динамически шахматное поле из массива в HTML
+// и раставьте шахматы в соответсвующем порядке.
+
 function drawChessBoard(){
     let chessBoard = document.querySelector('.container')
     let chessPieces = [

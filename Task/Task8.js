@@ -17,3 +17,4 @@ queue.push('Амфибрахий')
 outside.pop()
 outside.push('Иван','Даша')
 console.log('В очереди: ' + queue + '\n' + 'Вне банка: ' + outside)
+

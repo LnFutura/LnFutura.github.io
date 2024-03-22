@@ -20,10 +20,11 @@ function drawChessBoard(){
             block = document.createElement('div')
 
             if(flag){
-                block.className ='block white'
+                // block.className ='block white'
+
             }
             else{
-                block.className ='block black'
+                // block.className ='block black'
             }
             let piece = document.createElement('img')
 

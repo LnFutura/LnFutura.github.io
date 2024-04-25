@@ -1,0 +1,75 @@
+
+.container{
+    display: flex;
+    margin: 0 0 50px 5px;
+
+}
+
+.field {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #e8e2e2;
+    margin: 0 0 0 10px;
+    justify-content: center;
+    align-items: center;
+    color: #232121;
+    font-family: "Trebuchet MS", serif;
+    font-size: 20pt;
+    border-radius: 10px;
+
+}
+.content{
+    background-color: #4212AF;
+   position: relative;
+    left: 25vw;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.startButton{
+    margin: 50px 0 0 0 ;
+}
+.gameElement{
+    margin: 0px;
+}
+.taskElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0 0 50px 0 ;
+    background-color: #e8e2e2;
+    font-family: "Trebuchet MS", serif;
+    font-size: 15pt;
+    border-radius: 15px;
+}
+.winNode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", serif;
+    font-size: 15pt;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    background-color:#FF7800;
+}
+.loseNode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", serif;
+    font-size: 15pt;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    background-color:#FF7800;
+}
